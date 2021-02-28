@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <a href="hello.html" src="hello.html">
-          Hello World. Welcome to react components.
+          Learn React with Anand
         </a>
       </header>
     </div>
