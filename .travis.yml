@@ -1,0 +1,8 @@
+services:
+ - docker
+
+before_install:
+ -docker build -t sampledocker:1.0 -f Dockerfile.dev .
+ 
+script:
+ - docker run sampledocker:1.0 npm run test -- --coverage
